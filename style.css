@@ -1,0 +1,245 @@
+/*
+   OC CIS 155 Web Development I
+   Student Name: Rebecca Pirkle
+   Filename:  styles.css
+*/
+
+
+header, section, nav {
+   display: block;
+
+}
+
+
+/* Body styles */
+
+body {
+	background: Cornsilk url(plants.png) center center / 30% 50% round fixed content-box content-box;	/* Tiled background */
+	width: 80%;
+    min-width: 1000px;
+    max-width: 1000px;
+	font-family: 'Comfortaa';
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Site Navigation Styles */
+
+#siteNav {
+   float: left;		/* Float element*/
+   width: 15%;		/* Fluid unit of measure */
+   margin-right: 40px;	/* Fixed unit of measure */
+   background-color: rgb(187, 253, 196);
+}
+
+#siteNav ul {
+   list-style-type: none; 
+   padding-left: 0px; 
+   margin-left: 30px; 
+   font-size: 1em;
+   text-align: center;
+}
+
+#siteNav a {
+   text-decoration: none; 
+   color: DarkGreen;
+}
+
+#siteNav a:hover, a:active {
+   color: rgb(70, 196, 70);
+}
+
+#siteNav li.newTopic {
+   margin: 10px 0px 10px -20px;
+}
+
+#siteNav { 
+	border-style: solid;
+	border-width: 2px;
+	border-color: DarkGreen;
+}
+
+.newTopic {
+	padding: 7px 8px 8px 8px;
+}
+
+h1 {
+	text-align: center;
+	margin: 10px 5px 5px 5px;
+	color: DarkGreen;
+	letter-spacing: +3px;
+}
+a:link, a:visited {
+    color: DarkGreen;
+}
+a:hover, a:active {
+    color: rgb(70, 196, 70);
+}
+
+/* Header Styles */
+
+header {
+   float: left;		/* Float element*/
+   width: 75%;
+}
+
+
+/* Main Section Styles */
+
+#main {
+   float: left;		/* Float element*/
+   width: 75%;
+}
+figure {
+  float: right;		/* Float element*/
+  width: 43%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: DarkGreen solid;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+}
+#main {
+	background-color: rgb(187, 253, 196);
+	margin: 10px 15px 25px 15px;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 25px;	/* Rounded corners */
+	width: 700px;		/* Width property */
+	height: 475px;		/* Height Property */
+	overflow: auto;		/* Overflow property */
+	border-color: DarkGreen;
+	position: relative;		/* Relative positioning */
+}
+footer {
+	font-style: italic;
+	text-align: center;
+}
+/* Food page styles */
+#tips {
+	background-color: LightBlue;
+	margin: 15px 15px 15px 15px;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 25px;
+	width: 600px;
+	border-color: Black;
+	display: block;		/* Display property */
+}
+
+/* Clothing page styles */
+#clothingmain { 
+	background-color: rgb(225, 239, 217);
+	margin: 10px 15px 25px 15px;
+    border: 2px solid;
+    padding: 10px 20px;
+	width: 700px;		
+	height: 475px;		
+	overflow: auto;		
+	border-color: DarkGreen;
+	position: relative;		
+}
+#clothingmain > h2 {		/* Clothing header, child of main Clothing secion */
+	text-align: center;
+	margin: 0px 0px 5px 0px;
+	padding: 7px;
+	color: DarkGreen;
+	letter-spacing: +3px;
+	border: inherit;	/* Border takes on same attributes as main Clothing section */
+}
+article {		/* Left-side article, columns */
+	float: left;
+	column-count: 2; 	
+	overflow: scroll;
+	height: 70%;
+	width: 50%;
+}
+article > h2 {		/* Article header */
+	column-span: all; 
+	text-align: center;
+	margin: 0px 0px 5px 0px;
+	padding: 7px;
+	color: DarkGreen;
+	letter-spacing: +3px;
+	border: solid;
+} 
+
+/* Flexbox styles */
+#flexbox {		/* Flex container */
+	display: flex;
+	flex-direction: row;
+	float: left;
+	justify-content: space-around;
+}
+#img1 {		/* Flex images */
+	flex-grow: 1;
+	padding: 10px 10px 10px 10px;
+}
+#img2 {
+	flex-grow: 1;
+	padding: 10px 10px 10px 10px;
+}
+#img3 {
+	flex-grow: 1;
+	padding: 10px 10px 10px 10px;
+}
+
+/* Table styles */
+table, th, td {		/* Table */
+	width: 100%;
+	border: DarkGreen solid;
+	text-align: center;
+	border-collapse: collapse;
+	padding: 6px;
+	background: rgb(225, 239, 217);
+}
+th, td {		/* Cell size adjustment */
+	width: 25%;
+}
+caption {		/* Table header */
+	text-align: center;
+	margin: 0px 0px 5px 0px;
+	padding: 7px;
+	border: solid;
+	color: DarkGreen;
+	font-weight: bold;
+}
+.col1 {		/* Color for header cell */
+	background-color: rgb(80, 180, 80);
+}
+.cell1 {	/* Color for data cells */
+	background-color: rgb(147, 193, 147);
+}
+.col3 {
+	background-color: rgb(255, 102, 102);
+}
+.cell3 {
+	background-color: rgb(255, 160, 160);
+}
+
+/* Form style */
+form {		
+	float: right;
+	clear: right;
+	width: 45%;
+	height: 66%;
+	text-align: left;
+	margin-left: 5px;
+}
+form > h1 {
+	border: solid;
+	margin: 0px 0px 5px 0px;
+	padding: 7px;
+}
+#button {		/*Links submit button to thegoodtrade.com */
+	float: none;
+	display: inline;
+	height: 30px;
+	width: 150px;
+	border-radius: 5px;
+	color: DarkGreen;
+}

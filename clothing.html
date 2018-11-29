@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 
+  <head>
+   <!--
+      OC CIS 155 Web Development I
+      Build on Concepts Project #3
+      
+      Student Name: Rebecca Pirkle
+      Date:   November 3rd, 2018
+
+      Filename: clothing.html
+      Supporting files: style.css, eclogo.png
+
+   -->
+
+      <meta charset="utf-8"/>
+      <link href="style.css" rel="stylesheet">
+	  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+	  <meta name="description" content="Ethical clothes shopping">
+	  <meta name="keywords" content="ethical consumerism, ethical consumption, dollar voting">
+	  <title>Ethical Consumption - Clothing</title>
+
+  </head>  
+   <body>
+      <nav id="siteNav">
+         <ul>
+            <li class="newTopic"><a href="home.html">Home</a></li>
+            <li class="newTopic"><a href="food.html">Food</a></li>
+            <li class="newTopic"><a href="clothing.html">Clothing</a></li>
+			<li class="newTopic"><a href="#">Personal Care</a></li>
+			<li class="newTopic"><a href="#">Etc.</a></li>
+            <li class="newTopic"><a href="about.html">About</a></li>
+			<li class="newTopic"><a href="#">References</a></li>
+         </ul>
+      </nav>
+
+      <header>
+        <a href="home.html"><img src="eclogo.png" alt="Ethical Consumer Logo" width="790" height="200" /></a>
+      </header>
+
+      <section id="clothingmain">	
+		<h2> Clothing </h2>			<!-- Heading -->
+		<article>		<!-- Article -->
+			<h2>The Labor Behind Fashion</h2>
+			<p>The moral controversies in the fashion industry are primarily concerned with working condtions and environmental sustainability. It's no secret that many major fashion brands opt for shady and sometimes downright dangerous labor practices for the sake of proft. And the water-wasting effects of cotton as well as the emmisions released by producton plants manfacturing textiles such as polyester are leaving lasting impacts on the planet.</p>
+			<p>The goal behind ethical clothes shopping is to support brands that promote workers and utilize sustainabe farming practices while avoiding those who are focused only on fast fashion and who value profit over people and the planet.</p>
+		</article>	
+		<form action="https://www.thegoodtrade.com">	<!-- Form -->
+			 <h1>The Good Trade E-Mail List</h1>
+			 <p>The Good Trade is a digital media and lifestyle brand covering sustainable fashion and lifestyle.</p>
+           <p><label>First Name: </label>
+            <input type="text" /></p>
+           <p><label>Last Name: </label>
+            <input type="text" /></p>
+           <p><label>E-Mail Address: </label>
+            <input type="text" /></p>
+			<p><button id="button" type="reset">Reset</button> 
+			<button onclick="location.href='https://www.thegoodtrade.com'" id="button">Submit</button></p>	<!-- Submit redirects to website, doesn't actually register user -->
+		</form>
+		<section id="flexbox">		<!-- Flex Contaner -->
+			<a id="img1"><img src="clothing1.jpg" alt="Shopping bags" width="200" height="100"/></a>
+			<a id="img2"><img src="clothing3.png" alt="Eco tee shirt" width="200" height="100"/></a>
+			<a id="img3"><img src="clothing2.jpg" alt="Clothing racks" width="200" height="100"/></a>
+		</section>
+		<table>		<!-- Table -->
+			<caption>Three Ethical & Unethical Clothing Brands</caption>
+			<tr>
+				<th class="col1">Ethical</th>
+				<th>Why?</th> 
+				<th class="col3">Unethical</th>
+				<th>Why?</th>
+			</tr>
+			<tr>
+				<td class="cell1">Zara</td>
+				<td>Inditex (parent company) has started a program called <a href="https://www.inditex.com/our-commitment-to-the-environment/closing-the-loop">Closing the Loop</a> that lets customers drop off used clothing to be recycled or repurposed.</td> 
+				<td class="cell3">Victoria's Secret</td>
+				<td>No use of eco-friendly materials, and the company has been linked to <a href="https://www.npr.org/2011/12/16/143859114/report-links-victorias-secret-with-child-labor">child labor</a> in the past.</td>
+			</tr>
+			<tr>
+				<td class="cell1">Levi's</td>
+				<td>The company has vowed to switch entrely to <a href="https://fashionista.com/2018/04/best-ethical-sustainable-denim-brands">sustainable cotton</a> by the year 2020.</td> 
+				<td class="cell3">GAP</td>
+				<td><a href="https://www.globalcitizen.org/en/content/hm-gap-factory-abuse-fast-fashion-workers/">Abuse of workers</a>, especially in regards to production goals</td>
+			</tr>
+			<tr>
+				<td class="cell1">Patagonia</td>
+				<td><a href="https://nosidebar.com/patagonia-fair-trade-clothing/">Partnered with Fair Trade USA</a> to ensure ethical treatment of workers</td> 
+				<td class="cell3">H&M</td>
+				<td><a href="https://www.globalcitizen.org/en/content/hm-gap-factory-abuse-fast-fashion-workers/">Abuse of workers</a>, very similar to GAP</td>
+			</tr>
+		</table>
+		<footer>		<!-- Footer -->
+			<p>Information obained from <a href="https://www.ethicalconsumer.org/fashion-clothing">Ethical Consumer</a>, <a href="https://www.globalcitizen.org/en/content/hm-gap-factory-abuse-fast-fashion-workers/">Global Citizen</a>, <a href=" https://www.wri.org/blog/2017/07/apparel-industrys-environmental-impact-6-graphics">World Resources Institue</a>, <a href="https://nosidebar.com/patagonia-fair-trade-clothing/">No Sidebar</a>, <a href="https://fashionista.com/2018/04/best-ethical-sustainable-denim-brands">Fashionista</a>, <a href="https://www.npr.org/2011/12/16/143859114/report-links-victorias-secret-with-child-labor">NPR</a>, <a href="https://www.inditex.com/our-commitment-to-the-environment/closing-the-loop">Inditex</a>, and <a href="https://goodonyou.eco/how-ethical-is-zara/">Good on You</a>.</p>
+		</footer>
+	 </section>
+   </body>
+</html>

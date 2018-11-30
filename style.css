@@ -87,10 +87,6 @@ header {
 
 /* Main Section Styles */
 
-#main {
-   float: left;		/* Float element*/
-   width: 75%;
-}
 figure {
   float: right;		/* Float element*/
   width: 43%;
@@ -109,8 +105,8 @@ figure {
     border: 2px solid;
     padding: 10px 20px;
     border-radius: 25px;	/* Rounded corners */
-	width: 700px;		/* Width property */
-	height: 475px;		/* Height Property */
+	width: 750px;		/* Width property */
+	height: 500px;		/* Height Property */
 	overflow: auto;		/* Overflow property */
 	border-color: DarkGreen;
 	position: relative;		/* Relative positioning */
@@ -136,9 +132,10 @@ footer {
 	background-color: rgb(225, 239, 217);
 	margin: 10px 15px 25px 15px;
     border: 2px solid;
+	border-radius: 25px;
     padding: 10px 20px;
-	width: 700px;		
-	height: 475px;		
+	width: 750px;		
+	height: 510px;		
 	overflow: auto;		
 	border-color: DarkGreen;
 	position: relative;		
@@ -178,14 +175,17 @@ article > h2 {		/* Article header */
 #img1 {		/* Flex images */
 	flex-grow: 1;
 	padding: 10px 10px 10px 10px;
+	
 }
 #img2 {
 	flex-grow: 1;
 	padding: 10px 10px 10px 10px;
+	
 }
 #img3 {
 	flex-grow: 1;
 	padding: 10px 10px 10px 10px;
+	
 }
 
 /* Table styles */

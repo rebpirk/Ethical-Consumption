@@ -83,7 +83,12 @@ header {
    float: left;		/* Float element*/
    width: 75%;
 }
-
+h2 {
+	text-align: center;
+	margin: 10px 5px 5px 5px;
+	color: DarkGreen;
+	letter-spacing: +3px;
+}
 
 /* Main Section Styles */
 
